@@ -165,7 +165,7 @@ def cacheplayfabid():
 
 @app.route('/api/TitleData', methods=['POST'])
 def titled_data():
-    return jsonify({"MOTD":"<color=pink>WELCOME TO BLAWG TAGGERS</color>\n<color=red>BACKTOSCHOOL!</color>\n<color=blue>NEXT UPDATE:DUNGEONFLASHBACK</color>\n\n\nCREDITS:DEPRESSO,REEL\n\n\nJOIN THE DISCORD:https://discord.gg/jmtkkXBB5z"})
+    return jsonify({"MOTD":"<color=pink>WELCOME TO OTV3</color>\n<color=red>NOWRUZ!</color>\n<color=blue>NEXT UPDATE:CHRISTMAS 23</color>\n\n\nCREDITS:ZEMI,BXT,SPEED,G4\n\n\nJOIN THE DISCORD:https://discord.gg/HyyvkgJShA"})
 
 
 @app.route("/api/CheckForBadName", methods=["POST", "GET"])
