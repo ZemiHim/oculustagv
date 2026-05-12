@@ -7,9 +7,9 @@ from flask import Flask, jsonify, request
 class GameInfo:
 
     def __init__(self):
-        titleider: str = "109FA4"
-        secretkey: str = "EMI77I6TR9XY5ESOW5M9AWICFCMKCHXSSHFQZQ3K6FIRGXTGUO"
-        self.ApiKey: str = "OC|9817601228361485|d8d5aaff7a31704c239791f562ecb4c9"
+        titleider: str = "C5A44"
+        secretkey: str = "B41SBBBOYQUKDT7DACQPQ88KP4NA5D6GQJ75913HTYU9RFBFP5"
+        self.ApiKey: str = "OC|25761225303556286|d0a6b4bbb48d5ace2f736eaa45f5b601"
 
     def GetAuthHeaders(self) -> dict:
         return {
@@ -26,9 +26,9 @@ app: Flask = Flask(__name__)
 playfabCache: dict = {}
 muteCache: dict = {}
 
-titleider = "109FA4"
-secretkey = "EMI77I6TR9XY5ESOW5M9AWICFCMKCHXSSHFQZQ3K6FIRGXTGUO"
-settings.ApiKey = "OC|9817601228361485|d8d5aaff7a31704c239791f562ecb4c9"
+titleider = "C5A44"
+secretkey = "B41SBBBOYQUKDT7DACQPQ88KP4NA5D6GQJ75913HTYU9RFBFP5"
+settings.ApiKey = "OC|25761225303556286|d0a6b4bbb48d5ace2f736eaa45f5b601"
 
 
 def ReturnFunctionJson(data, funcname, funcparam={}):
