@@ -7,9 +7,9 @@ from flask import Flask, jsonify, request
 class GameInfo:
 
     def __init__(self):
-        titleider: str = "C5A44"
-        secretkey: str = "B41SBBBOYQUKDT7DACQPQ88KP4NA5D6GQJ75913HTYU9RFBFP5"
-        self.ApiKey: str = "OC|25761225303556286|d0a6b4bbb48d5ace2f736eaa45f5b601"
+        titleider: str = "59744"
+        secretkey: str = "18AYOKGZPM9IJURATGYIHJWTSXPQ9D81A9QMEMRQKWQD5Z36TB"
+        self.ApiKey: str = "OC|26906907912333578|cc2228a96f1605640bcfc20508ea8478"
 
     def GetAuthHeaders(self) -> dict:
         return {
@@ -26,9 +26,9 @@ app: Flask = Flask(__name__)
 playfabCache: dict = {}
 muteCache: dict = {}
 
-titleider = "C5A44"
-secretkey = "B41SBBBOYQUKDT7DACQPQ88KP4NA5D6GQJ75913HTYU9RFBFP5"
-settings.ApiKey = "OC|25761225303556286|d0a6b4bbb48d5ace2f736eaa45f5b601"
+titleider = "59744"
+secretkey = "18AYOKGZPM9IJURATGYIHJWTSXPQ9D81A9QMEMRQKWQD5Z36TB"
+settings.ApiKey = "OC|26906907912333578|cc2228a96f1605640bcfc20508ea8478"
 
 
 def ReturnFunctionJson(data, funcname, funcparam={}):
@@ -165,7 +165,7 @@ def cacheplayfabid():
 
 @app.route('/api/TitleData', methods=['POST'])
 def titled_data():
-    return jsonify({"MOTD":"<color=pink>WELCOME TO LTAG | LIGHTNING TAG</color>\n<color=red>NOWRUZ 24 UPD</color>\n<color=blue>MAIN OWNER: MODA, | DEV: ZEMI</color>\n\n\nCREDITS: ZEMI, MODA\n\n\nJOIN THE DISCORD: discord.gg/lightningtag
+    return jsonify({"MOTD":"<color=cyan>WELCOME | THIS IS PRESENT TAG, HAVING THE NAME GORILLA#### ISNT BANNABLE!</color>\n\n<color=#FFC0CB>UPDATE | XMAS 23, WE UPDATE EVERY FRIDAY!</color>\n\n<color=lime>DISCORD | discord.gg/jEpDxMubBe </color>\n\n<color=#5865F2>OWNERS | ZEMI, KDOT</color>"
 
 
 @app.route("/api/CheckForBadName", methods=["POST", "GET"])
