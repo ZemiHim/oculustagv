@@ -165,7 +165,7 @@ def cacheplayfabid():
 
 @app.route('/api/TitleData', methods=['POST'])
 def titled_data():
-    return jsonify({"MOTD":"<color=cyan>WELCOME | THIS IS PRESENT TAG, HAVING THE NAME GORILLA#### ISNT BANNABLE!</color>\n\n<color=#FFC0CB>UPDATE | XMAS 23, WE UPDATE EVERY FRIDAY!</color>\n\n<color=lime>DISCORD | discord.gg/jEpDxMubBe </color>\n\n<color=#5865F2>OWNERS | ZEMI, KDOT</color>"
+    return jsonify({"MOTD":"<color=cyan>WELCOME | THIS IS ZEM TAG, HAVING THE NAME GORILLA#### ISNT BANNABLE!</color>\n\n<color=#FFC0CB>UPDATE | XMAS 23, WE UPDATE EVERY FRIDAY!</color>\n\n<color=lime>DISCORD | discord.gg/gRSsEMUm3V</color>\n\n<color=#5865F2>OWNERS | ZEMI</color>"
 
 
 @app.route("/api/CheckForBadName", methods=["POST", "GET"])
